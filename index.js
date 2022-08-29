@@ -30,8 +30,8 @@ app.get('/api/whoami', (req, res) => {
   const user = req.get("User-Agent");
   res.json({
     ipaddress: ip,
-    languages: lang,
-    sofware: user,
+    language: lang,
+    software: user,
   });
 });
 
